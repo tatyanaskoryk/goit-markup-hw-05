@@ -165,7 +165,8 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    margin-left: 580px;
+    margin: 0 auto;
+
 }
 
 
@@ -477,8 +478,55 @@ height: 88px;
     color: var(--color-white)
 }
 
+.subscribe-form{
+    display: flex;
+    gap 24px;
 
+}
 
+.subscribe-input 
+{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+
+}
+
+input::placeholder
+{
+    color #ffffff;
+}
+.subscribe-button{
+    color: var(--white, #FFF);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        font-family: "Roboto", sans-serif
+        display: inline-flex;
+            padding: 8px 24px;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            Style border-radius: 4px;
+            background: var(--color-iris);
+            cursor: pointer;
+            border: none;
+    
+}
+
+.subscribe-svg{
+    margin-left: 16px;
+}
 
 
 /*-----------------PORTFOLIO---------------------------- */
