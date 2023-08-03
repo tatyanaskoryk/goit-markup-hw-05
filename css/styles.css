@@ -835,11 +835,16 @@ margin-bottom: 4px;
      justify-content: center;
       fill: transparent;
 }
-.span-checkbox:checked{
-background-color:  var(--color-ocean);
+
+
+.input-checkbox:checked + .label-checkbox{
+ background-color:  var(--color-ocean);
 border: none; 
- fill: var(--color-cloud); 
-}
+ fill: var(--color-cloud);}
+
+
+
+
 
 .checkbox-link{
     color: var(--color-iris); 
@@ -867,5 +872,5 @@ border: none;
      cursor: pointer;
       border-radius: 4px; 
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-          
+
 }
