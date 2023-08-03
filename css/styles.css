@@ -251,6 +251,7 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
     }
 
     /* SECTION------THREE----DOING----- */
+
     .doing{padding-bottom: 120px;}
 
     .doing-title{color:var(--color-navy-blue-modal);
@@ -346,6 +347,7 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
 
 
         /* SECTION----CUSTOMERS------ */
+
         .customers{
         padding-top: 120px;
          padding-bottom: 120px; }
@@ -483,6 +485,7 @@ height: 88px;
 .subscribe-form{
     display: flex;
     gap: 24px;
+   
 
 }
 
@@ -531,6 +534,9 @@ input::placeholder
 
 .subscribe-svg{
     margin-left: 16px;
+}
+.subscribe{
+     margin-left: 80px;
 }
 
 
@@ -784,7 +790,7 @@ margin-bottom: 4px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.form-input:focus+.form-svg{
+.form-input:focus + .form-svg{
     fill: #4D5AE5; 
 }
 .form-input-svg{
@@ -837,7 +843,7 @@ margin-bottom: 4px;
 }
 
 
-.input-checkbox:checked + .label-checkbox{
+.input-checkbox:checked + .label-checkbox span{
  background-color:  var(--color-ocean);
 border: none; 
  fill: var(--color-cloud);}
